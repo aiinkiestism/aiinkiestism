@@ -1,9 +1,9 @@
 <!-- ### Hi there 👋 -->
-## 300 Time for Cookie 🙂
+# 300 Time for Cookie 🙂 [![HitCount](http://hits.dwyl.com/aiinkiestism/aiinkiestism.svg)](http://hits.dwyl.com/aiinkiestism/aiinkiestism)
 
 <!-- [![Gmail](https://hashmimic.com/assets/gmail.svg)]() -->
 <!-- [hits]:https://hits.dwyl.com/aiinkiestism/aiinkiestism -->
-[![HitCount](http://hits.dwyl.com/aiinkiestism/aiinkiestism.svg)](http://hits.dwyl.com/aiinkiestism/aiinkiestism)
+<!-- [![HitCount](http://hits.dwyl.com/aiinkiestism/aiinkiestism.svg)](http://hits.dwyl.com/aiinkiestism/aiinkiestism) -->
 
 
 <!--
