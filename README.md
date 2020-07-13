@@ -2,7 +2,7 @@
 ## 300 Time for Cookie 🙂
 
 <!-- [![Gmail](https://hashmimic.com/assets/gmail.svg)]() -->
-[hits]:https://hits.dwyl.com/aiinkiestism/aiinkiestism
+[hits]:http://hits.dwyl.com/aiinkiestism/aiinkiestism
 
 <!--
 **aiinkiestism/aiinkiestism** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
