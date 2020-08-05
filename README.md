@@ -7,10 +7,10 @@
 
 <br>
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="left" src="https://github-readme-stats.vercel.app/api?username=aiinkiestism&count_private=true&show_icons=true&theme=merko" />
+  <img align="left" src="https://github-readme-stats.vercel.app/api?username=aiinkiestism&count_private=true&show_icons=true&theme=tokyonight" />
 </a>
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aiinkiestism" />
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aiinkiestism&hide=html,css&theme=tokyonight" />
 </a>
 
 <!--
