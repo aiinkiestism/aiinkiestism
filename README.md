@@ -1,15 +1,15 @@
 <!-- ### Hi there 👋 -->
-# 300 Time for Cookie 🙂 [![HitCount](http://hits.dwyl.com/aiinkiestism/aiinkiestism.svg)](http://hits.dwyl.com/aiinkiestism/aiinkiestism) [![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/aiinkiestism/my-stack)
+# 300 Time for Cookie 🙂 [![HitCount](http://hits.dwyl.com/aiinkiestism/aiinkiestism.svg)](http://hits.dwyl.com/aiinkiestism/aiinkiestism){:target="_blank"} [![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/aiinkiestism/my-stack){:target="_blank"}
 
 <!-- [![Gmail](https://hashmimic.com/assets/gmail.svg)]() -->
 <!-- [hits]:https://hits.dwyl.com/aiinkiestism/aiinkiestism -->
 <!-- [![HitCount](http://hits.dwyl.com/aiinkiestism/aiinkiestism.svg)](http://hits.dwyl.com/aiinkiestism/aiinkiestism) -->
 
 <br>
-<a href="https://github.com/anuraghazra/github-readme-stats">
+<a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
   <img align="left" src="https://github-readme-stats.vercel.app/api?username=aiinkiestism&count_private=true&show_icons=true&theme=radical" />
 </a>
-<a href="https://github.com/anuraghazra/github-readme-stats">
+<a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aiinkiestism&hide=html,css&theme=radical" />
 </a>
 
