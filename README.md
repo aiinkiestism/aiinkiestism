@@ -1,5 +1,5 @@
 <!-- ### Hi there 👋 -->
-# 300 Time for Cookie 🙂 [![HitCount](http://hits.dwyl.com/aiinkiestism/aiinkiestism.svg)](http://hits.dwyl.com/aiinkiestism/aiinkiestism)
+# 300 Time for Cookie 🙂 [![HitCount](http://hits.dwyl.com/aiinkiestism/aiinkiestism.svg)](http://hits.dwyl.com/aiinkiestism/aiinkiestism) [![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/aiinkiestism/my-stack)
 
 <!-- [![Gmail](https://hashmimic.com/assets/gmail.svg)]() -->
 <!-- [hits]:https://hits.dwyl.com/aiinkiestism/aiinkiestism -->
