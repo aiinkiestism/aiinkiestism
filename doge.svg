@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 416 366" width="416" height="366" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11">
+  <defs>
+    <!-- rounded clip -->
+    <clipPath id="round"><rect x="0" y="0" width="416" height="366" rx="9"/></clipPath>
+    <!-- base purple gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="0.45" y2="1">
+      <stop offset="0" stop-color="#1a0f22"/>
+      <stop offset="0.7" stop-color="#0b0c12"/>
+      <stop offset="1" stop-color="#090a0f"/>
+    </linearGradient>
+    <!-- pink glow (top-left) -->
+    <radialGradient id="gPink" cx="0.25" cy="0.2" r="0.55">
+      <stop offset="0" stop-color="#fe428e" stop-opacity="0.34"/>
+      <stop offset="0.5" stop-color="#fe428e" stop-opacity="0"/>
+    </radialGradient>
+    <!-- cyan glow (bottom-right) -->
+    <radialGradient id="gCyan" cx="0.8" cy="0.85" r="0.55">
+      <stop offset="0" stop-color="#59e7ff" stop-opacity="0.28"/>
+      <stop offset="0.5" stop-color="#59e7ff" stop-opacity="0"/>
+    </radialGradient>
+    <!-- central pulsing glow -->
+    <radialGradient id="gPulse" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#fe428e" stop-opacity="0.24"/>
+      <stop offset="0.6" stop-color="#fe428e" stop-opacity="0"/>
+    </radialGradient>
+    <!-- shimmer sweep over doge -->
+    <linearGradient id="sh" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="220" y2="0">
+      <stop offset="0" stop-color="#7a6a74"/>
+      <stop offset="0.42" stop-color="#7a6a74"/>
+      <stop offset="0.5" stop-color="#fe428e"/>
+      <stop offset="0.58" stop-color="#59e7ff"/>
+      <stop offset="0.66" stop-color="#7a6a74"/>
+      <stop offset="1" stop-color="#7a6a74"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-260 0" to="456 0" dur="4.5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <!-- soft neon glow for the doge text -->
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect x="0" y="0" width="416" height="366" fill="url(#bg)"/>
+    <rect x="0" y="0" width="416" height="366" fill="url(#gPink)"/>
+    <rect x="0" y="0" width="416" height="366" fill="url(#gCyan)"/>
+    <rect x="0" y="0" width="416" height="366" fill="url(#gPulse)">
+      <animate attributeName="opacity" values="0.45;0.95;0.45" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <text xml:space="preserve" x="16" y="22" filter="url(#glow)">
+      <tspan x="16" dy="0"><tspan fill="#ff7b72">const </tspan><tspan fill="#79c0ff">myDoge</tspan><tspan fill="#c9d1d9"> = [</tspan></tspan>
+      <tspan x="16" dy="14.5" fill="url(#sh)">  '░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░',</tspan>
+      <tspan x="16" dy="14.5" fill="url(#sh)">  '░░░kiana░░░░░░░░░░░▄░░░░░░░░░░░░░░▄░░░░░yup░░░░░░░░░░',</tspan>
+      <tspan x="16" dy="14.5" fill="url(#sh)">  '░░░░░░░░░░░░░░░░░░▌▒█░░░░░░░░░░░▄▀▒▌░░░░░░░░░░░░░░░░░',</tspan>
+      <tspan x="16" dy="14.5" fill="url(#sh)">  '░░░░░░░░░░░░░░░░░░▌▒▒█░░░░░░░░▄▀▒▒▒▐░░░░░░░░░░░░░░░░░',</tspan>
+      <tspan x="16" dy="14.5" fill="url(#sh)">  '░░░░░░░░░░░░░░░░░▐▄▀▒▒▀▀▀▀▄▄▄▀▒▒▒▒▒▐░░░░░░░░░░░░░░░░░',</tspan>
+      <tspan x="16" dy="14.5" fill="url(#sh)">  '░░reggaeton░░░░▄▄▀▒░▒▒▒▒▒▒▒▒▒█▒▒▄█▒▐░░░░░rnb░░░░░░░░░',</tspan>
+      <tspan x="16" dy="14.5" fill="url(#sh)">  '░░░░░░░░░░░░░▄▀▒▒▒░░░▒▒▒░░░▒▒▒▀██▀▒▌░░░░░░░░░░░░░░░░░',</tspan>
+      <tspan x="16" dy="14.5" fill="url(#sh)">  '░░░░░░░░░░░░▐▒▒▒▄▄▒▒▒▒░░░▒▒▒▒▒▒▒▀▄▒▒▌░░░░░░░░░░░░░░░░',</tspan>
+      <tspan x="16" dy="14.5" fill="url(#sh)">  '░░░░░░░░░░░░▌░░▌█▀▒▒▒▒▒▄▀█▄▒▒▒▒▒▒▒█▒▐░░░░░░░░░░░░░░░░',</tspan>
+      <tspan x="16" dy="14.5" fill="url(#sh)">  '░░░░░░░░░░░▐░░░▒▒▒▒▒▒▒▒▌██▀▒▒░░░▒▒▒▀▄▌░░░░░░░░░░░░░░░',</tspan>
+      <tspan x="16" dy="14.5" fill="url(#sh)">  '░░░░░░░░░░░▌░▒▄██▄▒▒▒▒▒▒▒▒▒░░░░░░▒▒▒▒▌░░░░░░░░░░░░░░░',</tspan>
+      <tspan x="16" dy="14.5" fill="url(#sh)">  '░░░░░░░░░░▀▒▀▐▄█▄█▌▄░▀▒▒░░░░░░░░░░▒▒▒▐░░░░░░░░░░░░░░░',</tspan>
+      <tspan x="16" dy="14.5" fill="url(#sh)">  '░░woof░░░░▐▒▒▐▀▐▀▒░▄▄▒▄▒▒▒▒▒▒░▒░▒░▒▒▒▒▌░░░░░░░░░░░░░░',</tspan>
+      <tspan x="16" dy="14.5" fill="url(#sh)">  '░░░░░░░░░░▐▒▒▒▀▀▄▄▒▒▒▄▒▒▒▒▒▒▒▒░▒░▒░▒▒▐░░░░░░░░░░░░░░░',</tspan>
+      <tspan x="16" dy="14.5" fill="url(#sh)">  '░░░░░░░░░░░▌▒▒▒▒▒▒▀▀▀▒▒▒▒▒▒░▒░▒░▒░▒▒▒▌░░hiphop░░░░░░░',</tspan>
+      <tspan x="16" dy="14.5" fill="url(#sh)">  '░░░░░░░░░░░▐▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒░▒░▒▒▄▒▒▐░░░░░░░░░░░░░░░░',</tspan>
+      <tspan x="16" dy="14.5" fill="url(#sh)">  '░░░░░░░░░░░░▀▄▒▒▒▒▒love▒▒░▒░▒░▒▄▒▒▒▒▌░░░░░░░░░░░░░░░░',</tspan>
+      <tspan x="16" dy="14.5" fill="url(#sh)">  '░░░░░░░░░░░░░░▀▄▒▒▒▒▒▒▒▒▒▒▄▄▄▀▒▒▒▒▄▀░░░░░░░░░░░░░░░░░',</tspan>
+      <tspan x="16" dy="14.5" fill="url(#sh)">  '░░woofwof░░░░░░░▀▄▄▄▄▄▄▀▀▀▒▒▒▒▒▄▄▀░░░░░░░░░░░░░░░░░░░',</tspan>
+      <tspan x="16" dy="14.5" fill="url(#sh)">  '░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▀▀░░░░░░░░░░░░░░░░░░░░░░',</tspan>
+      <tspan x="16" dy="14.5" fill="url(#sh)">  '░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░'</tspan>
+      <tspan x="16" dy="14.5" fill="#c9d1d9">];</tspan>
+    </text>
+  </g>
+  <rect x="0.5" y="0.5" width="415" height="365" rx="9" fill="none" stroke="#3a2340" stroke-opacity="0.8"/>
+</svg>
